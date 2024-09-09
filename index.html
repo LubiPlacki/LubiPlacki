@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wprowadzenie danych do paszportu. Wykonał: mateusz</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <img src="odcisk-000.jpg" alt="nie ma numeru" id="obrazek1" class="zdjecia">
+    <img src="zdjecie-000.jpg" alt="nie ma numeru" id="obrazek2" class="zdjecia">
+
+
+<div class="inputy">
+<label for="numer" class="inputA">numer:</label>
+<input type="text" id="numer" class="inputB" onblur="Obrazki()"> <br>
+</div>
+<div class="inputy">
+<label for="imie" class="inputA">imie:</label>
+<input type="text" id="imie" class="inputB"> <br>
+</div>
+<div class="inputy">
+<label for="nazwisko" class="inputA">nazwisko:</label>
+<input type="text" id="nazwisko" class="inputB"> <br>
+</div>
+
+<fieldset id="oczka">
+    <legend>Kolor Oczu</legend>
+    <input type="radio" id="niebieskie" name="oczy" value="niebieskie" checked="checked">
+    <label for="niebieskie">niebieskie</label><br>
+    <input type="radio" id="zielone" name="oczy" value="zielone">
+    <label for="zielone">zielone</label><br>
+    <input type="radio" id="piwne" name="oczy" value="piwne">
+    <label for="piwne">piwne</label><br>
+</fieldset>
+
+        <button id="Guzik"> OK </button>
+    
+
+    
+
+    <script src="Jcode.js"></script> 
+</body>
+</html>

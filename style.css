@@ -1,0 +1,45 @@
+body {
+    background-color: #5F9EA0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #F0FFFF;
+    float:right;
+    position:absolute;
+    bottom: 20px;
+    right:70px;
+    width: 250px;
+}
+
+.inputy{
+margin-top: 30px;
+}
+
+.inputA{
+    margin-left: 40px;
+    font-size: 20px;
+    float:left;
+}
+
+.inputB{
+    float:right;
+    font-size: 20px;
+    background-color: #F0FFFF;
+}
+
+.zdjecia{
+    float: right;
+    margin:30px;
+    margin-top: 0px;
+    height: 180px;
+    width: 150px;
+}
+
+#oczka{
+    margin: 30px;
+}
